@@ -1,6 +1,0 @@
-print ( " первый катет ")
-k1=int ( input ( ) )
-print  ( " второй катет ")
-k2=int ( input ( ) )
-print ( " площадь триугольника  ")
-print ( ( k1 * k2 ) / 2 )
