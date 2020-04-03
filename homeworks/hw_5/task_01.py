@@ -1,4 +1,13 @@
 
-list = [0, 5, 100, -5]
-a = min(int(i) for i in list)
-print (a) 
+list = [3, 5, 100, -5]
+mins = list[0]
+for i in list:
+    if i < mins:
+        mins = i      
+print(mins)
+ 
+ 
+
+
+#a = min(list)
+#print (a) 
